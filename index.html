@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محاسبه‌گر قیمت خدمات نرم‌افزاری</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2196F3">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💰 محاسبه‌گر قیمت خدمات نرم‌افزاری</h1>
+        
+        <div class="service-grid">
+            <div class="service-card" data-service="اپلیکیشن موبایل">
+                <h3>📱 اپلیکیشن موبایل</h3>
+                <div class="price">-</div>
+                <button class="calculate-btn">محاسبه قیمت</button>
+            </div>
+            
+            <div class="service-card" data-service="نرم‌افزار سفارشی">
+                <h3>⚙️ نرم‌افزار سفارشی</h3>
+                <div class="price">-</div>
+                <button class="calculate-btn">محاسبه قیمت</button>
+            </div>
+        </div>
+        
+        <div class="quote-section">
+            <button id="generate-quote">🎲 دریافت پیش‌فاکتور تصادفی</button>
+            <div id="quote-result"></div>
+        </div>
+    </div>
+    
+    <script src="price-calculator.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
